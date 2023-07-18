@@ -1,0 +1,120 @@
+.main-c
+{
+    margin-top:10px;
+
+}
+#mainImage{
+   
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+  color: black;
+}
+.carousel-indicators{
+    background-color:black;
+}
+
+
+
+.boxa{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+    font-family: sans-serif;
+    background: #ffffff;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+  
+ 
+
+}
+.pret{
+    text-align: center;
+}
+.site-btn.btn-span{
+    margin-left: 33%;
+    background-color: #ff704d;
+}
+#advantage .boxi{
+  
+    background: #ffffff;
+    margin: 0;
+    
+    width: 555px;
+    padding: 104px;
+    box-shadow: 0px 2px 5px rgba(0,0,0.3);
+   }
+   
+   #advantage .boxi .icon{
+       position: absolute;
+       font-size: 50px;
+       width: 100%;
+       text-align: center;
+       top: 5px;
+       left: 0px;
+       height: 100%;
+       color:var(--text-color);
+       box-sizing: border-box;
+       z-index: 1;
+   }
+   
+   #advantage .boxi h3{
+       font-family: var(--roboto);
+       position: relative;
+       margin: 0 0 0px;
+       font-weight: 0.5px;
+       font-size: 25px;
+       text-transform: uppercase;
+       z-index: 2;
+   
+   }
+   #advantage .boxi h3 a{
+       color:var(--select-color);
+   }
+   #advantage .boxi h3 a:hover{
+       text-decoration: none;
+   }
+   
+   #advantage .boxi p{
+       padding: 0px;
+       margin-bottom: 0px;
+       font-family: var(--lobster);
+       margin-left: 20px;
+       margin-right: 20px;
+       position:relative;
+       font-size: 20px;
+       z-index: 2;
+       color:var(--text-color);
+   }
+ 
+   .caract{
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+    font-family: sans-serif;
+    background: #ffffff;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    width: 1095px;
+   }

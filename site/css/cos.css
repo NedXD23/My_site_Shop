@@ -1,0 +1,32 @@
+section .main-c{
+    margin-bottom: 30px;
+    padding: 200px;
+    background-image:url("back.jpg");
+    width:1100px;
+    height: 1000px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 0;
+}
+.boxLog
+{
+    margin-top: 5%;
+    width: 400px;
+    padding: 40px;
+    margin-left: 23%;
+    font-family: sans-serif;
+    background:black;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.boxLog h1,h2{
+    text-align: center;
+    color: rgb(196, 240, 37);
+    font-family: Lobster;
+    font-weight: 500;
+}
+
+
